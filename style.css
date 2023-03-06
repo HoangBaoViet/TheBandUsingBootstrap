@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#nav .dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+
+#nav a {
+    color: #fff !important;
+}
+
+#nav .button-search {
+    position: absolute !important;
+    right: 0;
+    height: 100%;
+    line-height: 56px;
+    width: 56px !important;
+    cursor: pointer;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#band img {
+    width: 60%;
+    /* border-radius: 5px !important; */
+}
+
+#tour img {
+    width: 100%;
+}
+
+#tour img:hover {
+    opacity: 0.8;
+}
+
+#map {
+    width: 100%;
+    filter: grayscale(50%);
+}
+
+.footer i {
+    font-size: 20px;
+}
+
+.footer i:hover {
+    opacity: 0.8;
+}
